@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "expo-pokedex-app",
+    "slug": "expo-pokedex-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/pokemon-logo.png",
+    "splash": {
+      "image": "./assets/pokemon-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f0f3f5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
